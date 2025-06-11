@@ -1,0 +1,81 @@
+---
+anchors:
+  thresholds-operstate: &thresholds-operstate
+    - color: "#FF3154" # red
+      pattern: 'down'
+    - color: "#4BDD33" # green
+      pattern: 'up'
+cellIdPreamble: cell-
+cells:
+  eth1-31:
+    dataRef: oper-state:e1-31
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-32:
+    dataRef: oper-state:e1-32
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-33:
+    dataRef: oper-state:e1-33
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-34:
+    dataRef: oper-state:e1-34
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-35:
+    dataRef: oper-state:e1-35
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-36:
+    dataRef: oper-state:e1-36
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-37:
+    dataRef: oper-state:e1-37
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-38:
+    dataRef: oper-state:e1-38
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-39:
+    dataRef: oper-state:e1-39
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-40:
+    dataRef: oper-state:e1-40
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-41:
+    dataRef: oper-state:e1-41
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-42:
+    dataRef: oper-state:e1-42
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-43:
+    dataRef: oper-state:e1-43
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-44:
+    dataRef: oper-state:e1-44
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-45:
+    dataRef: oper-state:e1-45
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-46:
+    dataRef: oper-state:e1-46
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-47:
+    dataRef: oper-state:e1-47
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-48:
+    dataRef: oper-state:e1-48
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
