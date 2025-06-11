@@ -2,9 +2,9 @@
 anchors:
   thresholds-operstate: &thresholds-operstate
     - color: "#FF3154" # red
-      text: "down"
+      pattern: 'down'
     - color: "#4BDD33" # green
-      text: "up"
+      pattern: "up"
   values-operstate: &values-operstate
     - color: "#FF3154" # red
       values: "down"
