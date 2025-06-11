@@ -5,16 +5,23 @@ anchors:
       level: 0
     - color: "#4BDD33" # green
       level: 1
+  values-operstate: &values-operstate
+    - color: "#FF3154" # red
+      value: "down"
+    - color: "#4BDD33" # green
+      value: "up"
 cellIdPreamble: cell-
 cells:
   router1:e1-40:
     dataRef: oper-state:router1:e1-40
     fillColor:
-      thresholds: *thresholds-operstate
+      #thresholds: *thresholds-operstate
+      values: *values-operstate
   router2:e1-40:
     dataRef: oper-state:router2:e1-40
     fillColor:
-      thresholds: *thresholds-operstate
+      #thresholds: *thresholds-operstate
+      values: *values-operstate
   router1:e1-40p:
     dataRef: oper-state:router1:e1-40
     fillColor:
