@@ -47,7 +47,7 @@ cells:
     dataRef: oper-state:eth1-40
     fillColor:
       thresholdPatterns: *thresholds-operstate
-  eth1-41:
+  eth1-411:
     dataRef: oper-state:eth1-41
     fillColor:
       thresholdPatterns: *thresholds-operstate
