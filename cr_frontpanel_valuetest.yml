@@ -7,9 +7,9 @@ anchors:
       level: 1
   values-operstate: &values-operstate
     - color: "#FF3154" # red
-      value: "down"
+      values: "down"
     - color: "#4BDD33" # green
-      value: "up"
+      values: "up"
 cellIdPreamble: cell-
 cells:
   router1:e1-40:
