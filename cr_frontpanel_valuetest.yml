@@ -2,9 +2,9 @@
 anchors:
   thresholds-operstate: &thresholds-operstate
     - color: "#FF3154" # red
-      level: 0
+      text: "down"
     - color: "#4BDD33" # green
-      level: 1
+      text: "up"
   values-operstate: &values-operstate
     - color: "#FF3154" # red
       values: "down"
@@ -15,13 +15,13 @@ cells:
   router1:e1-40:
     dataRef: oper-state:router1:e1-40
     fillColor:
-      #thresholds: *thresholds-operstate
-      value: *values-operstate
+      thresholds: *thresholds-operstate
+      #value: *values-operstate
   router2:e1-40:
     dataRef: oper-state:router2:e1-40
     fillColor:
-      #thresholds: *thresholds-operstate
-      value: *values-operstate
+      thresholds: *thresholds-operstate
+      #value: *values-operstate
   router1:e1-40p:
     dataRef: oper-state:router1:e1-40
     fillColor:
