@@ -4,7 +4,7 @@ anchors:
     - color: "#FF3154" # red
       pattern: 'down'
     - color: "#4BDD33" # green
-      pattern: "up"
+      pattern: 'up'
   values-operstate: &values-operstate
     - color: "#FF3154" # red
       values: "down"
