@@ -79,3 +79,52 @@ cells:
     dataRef: oper-state:eth1-48
     fillColor:
       thresholdPatterns: *thresholds-operstate
+  eth1-49:
+    dataRef: oper-state:eth1-49
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-50:
+    dataRef: oper-state:eth1-50
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-51:
+    dataRef: oper-state:eth1-51
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-52:
+    dataRef: oper-state:eth1-52
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-53:
+    dataRef: oper-state:eth1-53
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-54:
+    dataRef: oper-state:eth1-54
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-55:
+    dataRef: oper-state:eth1-55
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-56:
+    dataRef: oper-state:eth1-56
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-57:
+    dataRef: oper-state:eth1-57
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-58:
+    dataRef: oper-state:eth1-58
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-59:
+    dataRef: oper-state:eth1-59
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-60:
+    dataRef: oper-state:eth1-60
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  
