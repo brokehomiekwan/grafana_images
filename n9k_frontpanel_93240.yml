@@ -7,6 +7,126 @@ anchors:
       pattern: 'up'
 cellIdPreamble: cell-
 cells:
+  eth1-1:
+    dataRef: oper-state:eth1-1
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-2:
+    dataRef: oper-state:eth1-2
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-3:
+    dataRef: oper-state:eth1-3
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-4:
+    dataRef: oper-state:eth1-4
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-5:
+    dataRef: oper-state:eth1-5
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-6:
+    dataRef: oper-state:eth1-6
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-7:
+    dataRef: oper-state:eth1-7
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-8:
+    dataRef: oper-state:eth1-8
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-9:
+    dataRef: oper-state:eth1-9
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-10:
+    dataRef: oper-state:eth1-10
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-11:
+    dataRef: oper-state:eth1-11
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-12:
+    dataRef: oper-state:eth1-12
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-13:
+    dataRef: oper-state:eth1-13
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-14:
+    dataRef: oper-state:eth1-14
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-15:
+    dataRef: oper-state:eth1-15
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-16:
+    dataRef: oper-state:eth1-16
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-17:
+    dataRef: oper-state:eth1-17
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-18:
+    dataRef: oper-state:eth1-18
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-19:
+    dataRef: oper-state:eth1-19
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-20:
+    dataRef: oper-state:eth1-20
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-21:
+    dataRef: oper-state:eth1-21
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-22:
+    dataRef: oper-state:eth1-22
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-23:
+    dataRef: oper-state:eth1-23
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-24:
+    dataRef: oper-state:eth1-24
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-25:
+    dataRef: oper-state:eth1-25
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-26:
+    dataRef: oper-state:eth1-26
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-27:
+    dataRef: oper-state:eth1-27
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-28:
+    dataRef: oper-state:eth1-28
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-29:
+    dataRef: oper-state:eth1-29
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
+  eth1-30:
+    dataRef: oper-state:eth1-30
+    fillColor:
+      thresholdPatterns: *thresholds-operstate
   eth1-31:
     dataRef: oper-state:eth1-31
     fillColor:
